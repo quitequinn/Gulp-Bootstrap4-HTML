@@ -1,11 +1,15 @@
+// Using this page as your reference for variables
+// https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss   o
 $theme-colors: (
     // Example Color Change
-    "primary": #FF69B4
+    "primary": blue,
 );
 
+// Change Bootstrap variables before this line
 @import "node_modules/bootstrap/scss/bootstrap";
 
+// Overide or customize your CSS below this line.
 body {
-    
+    background: yellow;
 }
 
