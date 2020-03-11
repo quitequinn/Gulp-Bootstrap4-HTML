@@ -1,0 +1,28 @@
+{
+  "name": "gulp-bootstrap4-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quitequinn/Gulp-Bootstrap4-HTML.git"
+  },
+  "author": "Quinn Keaveney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quitequinn/Gulp-Bootstrap4-HTML/issues"
+  },
+  "homepage": "https://github.com/quitequinn/Gulp-Bootstrap4-HTML#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "bootstrap": "^4.3.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
