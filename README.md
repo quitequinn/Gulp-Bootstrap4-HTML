@@ -19,7 +19,7 @@ Then install NVM
 ```
 brew install nvm
 ```
-At the end of the installation process you will be asked to add some code to the .bash-profile in your root. If you don't have a .bash-profile you can just make one. Once you have found it copy the code asked at the end of the install.
+At the end of the installation process you will be asked to add some code to the .bash_profile in your root. If you don't have a .bash_profile you can just make one. It is a hidden file so you will have to click `COMMAND`+`SHIFT`+`.` to show all hidden files. Once you have found it copy the code asked at the end of the install.
 
 You might be able to skip this step, but just incase install node 12
 ```
@@ -50,12 +50,6 @@ Then run the command below.
 gulp watch
 ```
 
-If you want to try running testing the browser without installing gulp globally. 
-Try running the command below.
-
-```
-node_modules/gulp/bin/gulp.js watch
-```
 
 Browsersync should automatically open a browser on port 3000.
 
@@ -63,3 +57,5 @@ Browsersync should automatically open a browser on port 3000.
 # Customizing Bootstrap
 You can customize bootstrap by changing variables above your import of bootstrap. 
 All the variables you need are found on this page. https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
+You can find your style.css file at `src/scss/styles.scss`.
+
