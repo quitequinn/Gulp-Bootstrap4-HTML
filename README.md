@@ -8,30 +8,58 @@ If you would like to fully understand how this works, check out my medium post
 to learn more about the source code and how to modify the Boostrap package and your SaSS file.
 
 ## To Run the Project
-After you clone this project you may try to install all dependencies using 
+There is some software you need to install before you can use NPM.
+
+Please install Homebrew
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+Then install NVM
+```
+brew install nvm
+```
+At the end of the installation process you will be asked to add some code to the .bash-profile in your root. If you don't have a .bash-profile you can just make one. Once you have found it copy the code asked at the end of the install.
+
+You might be able to skip this step, but just incase install node 12
+```
+nvm install 12
+```
+And use node 12
+```
+nvm use 12
+```
+You are now ready to install this project.
+
+## To Run the Project
+After you download this project you may try to install all dependencies by opening this project in terminal and running 
 
 ```
-$ npm install
+npm install
 ```
 
 Before you start the server, you need to install gulp 4 globally.
 
 ```
-$ npm install gulp -g
+npm install gulp -g
 ```
 
 Then run the command below.
 
 ```
-$ gulp watch
+gulp watch
 ```
 
 If you want to try running testing the browser without installing gulp globally. 
 Try running the command below.
 
 ```
-$ node_modules/gulp/bin/gulp.js watch
+node_modules/gulp/bin/gulp.js watch
 ```
 
 Browsersync should automatically open a browser on port 3000.
 
+
+# Customizing Bootstrap
+You can customize bootstrap by changing variables above your import of bootstrap. 
+All the variables you need are found on this page. https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
