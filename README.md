@@ -59,3 +59,7 @@ node_modules/gulp/bin/gulp.js watch
 
 Browsersync should automatically open a browser on port 3000.
 
+
+# Customizing Bootstrap
+You can customize bootstrap by changing variables above your import of bootstrap. 
+All the variables you need are found on this page. https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
